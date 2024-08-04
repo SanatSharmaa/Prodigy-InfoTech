@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="card">
+        <div class="title">
+            <img src="images/climate-change (1).png" alt="">
+            <p>Weather App</p>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button class="button" onclick="checkWeather()"><i class="ri-search-2-line"></i></button>
+        </div>
+        <div class="location"><i class="ri-user-location-line"></i>use your current location.</div>
+        <div class="weather">
+            <img src="images/cloudy.png" alt="" srcset="">
+            <h1 class="temp" style="opacity: 0.6;">!</h1>
+            <h2 class="city" style="opacity: 0.5;">Enter City Name</h2>
+            <div class="description" style="opacity: 0.5;">Happy Weather Forecast</div>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity"> -- %</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="windSpeed">-- km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">copyright &copy; Weather-App by Sanat Sharma.&nbsp;All Rights Reserved. </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
